@@ -6,13 +6,25 @@ html, body {
     width: 100%;
 }
 
-.header-class {
+header {
+    position: fixed;
     background-color: rgb(186, 169, 149);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-header h1 {
+li {
     display: inline;
-    text-align: center;
+    margin: 10px;
+}
+
+main {
+    margin-top: 125px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .button {
