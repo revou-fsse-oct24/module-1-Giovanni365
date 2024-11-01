@@ -31,4 +31,4 @@ open index.html
 ```
 
 ## Deployment
-Visit website link: [Website](https://revou-fsse-oct24.github.io/module-1-Giovanni365/)
+Take a look on my project: [Pacman Digital Agency](https://revou-fsse-oct24.github.io/module-1-Giovanni365/)
