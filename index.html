@@ -3,109 +3,131 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0"> 
-        <title>Revou Digital Agency</title>
+        <title>Pacman Digital Agency</title>
+        <link rel="icon" href="./Asset/favicon.ico">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <header>
-            <div class="header-class">
-                <img src="./Asset/Revou_Digital_Agency-removebg-preview.png" alt="Logo Revou" width="250px" height="100px">
-            </div>
-            <nav>
+        <header> <!-- transition, animation & media query belum-->
+            <nav class="nav-bar">
+                <img src="./Asset/Pacmann Digital Agency.png" alt="Logo Pacman">
                 <ul>
                     <li><a href="#Home">Home</a></li>
-                    <li><a href="#AboutUs">About Us</a></li>
+                    <li><a href="#About-Us">About Us</a></li>
                     <li><a href="#Services">Services</a></li>
-                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Clients">Clients</a></li>
                     <li><a href="#Contact">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="Home">
-                <h2>Transform Your Business with Creative & Innovative Digital Solutions</h2>
-                <p>At Revou Digital Agency we blend creativity, strategy, and technology to build powerful digital experiences. From captivating websites to marketing campaigns, we help brands connect with their audience and achieve measurable success.</p>
-                <a href="#Home" class="button">Read More</a>
-                <a href="#Contact" class="button">Contact Us</a>
+            <section id="Home">
+                <div class="Home-left">
+                    <div class="Home-text">
+                        <h2>Transform Your Business with Creative & Innovative Digital Solutions</h2>
+                        <p>At Pacman Digital Agency we blend creativity, strategy, and technology to build powerful digital experiences</p>
+                    </div>
+                    <div class="Home-button">
+                        <button type="button" class="button-left"><a href="#Home">Read More</a></button>
+                        <button type="button" class="button-right"><a href="#Contact">Contact Us</a></button>
+                    </div>
+                </div>
+                <div class="Home-right">
+                    <img src="./Asset/pacsnapper-removebg-preview.png" alt="Pacman-Start">
+                </div>
             </section>
-            <section class="About Us">
-                <h2>About Us</h2>
-                <p>At Revou Digital Agency We provide end-to-end digital solutions designed to help businesses grow online. From web development to branding, we are the right partner for your success.</p>
+            <section id="About-Us">
+                <h2>ABOUT US</h2>
+                <p>Welcome to Pacman Digital Agency!</p>
+                <img src="./Asset/Digital Marketing.png" alt="Digital Marketing">
+                <p> We harness the power of innovation and creativity to help your brand make waves online. 
+                    From high-performance websites to captivating social media campaigns, we specialize in crafting digital experiences that engage and inspire.
+                    Our team's expertise spans every corner of the digital world, and our passion for quality drives us to exceed expectations.
+                    We believe in pushing boundaries and redefining success, one client at a time.
+                </p>
             </section>
-            <section class="Services">
-                <div class="Our Services">
-                    <h2>What We Offer</h2>
-                    <p>Our services include Web Development, Social Media Marketing, SEO and Digital Advertising</p>
+            <section id="Clients">
+                <h2>OUR CLIENTS</h2>
+                </div>
+                <div class="Clients-List">
+                    <img src="./Asset/bango.png" alt="Bango" class="Middle">
+                    <img src="./Asset/Garuda food.png" alt="Garuda Food">
+                    <img src="./Asset/Kapal api.png" alt="Kapal Api">
+                    <img src="./Asset/La fonte.png" alt="La Fonte">
+                    <img src="./Asset/Chupa Chups.png" alt="Chupa Chups" class="Middle">
+                    <img src="./Asset/Ultrajaya.png" alt="Ultrajaya">
+                    <img src="./Asset/nissin.png" alt="Nissin">
+                    <img src="./Asset/Kopiko.png" alt="Kopiko">
+                </div>
+            </section>
+            <section id="Services">
+                <div class="Our-Services">
+                    <h2>OUR SERVICES</h2>
+                    <p>Our services include Web Development, Social Media Marketing, Search Engine Automation and Digital Advertising</p>
                 </div>
                 <div class="list">
                     <div class="Services-list">
+                        <img src="./Asset/Web Development.png" alt="Web Development">
                         <h3>Web development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Tailored web development services to create visually appealing, user-friendly websites that reflect your brand's identity and drive conversions. 
+                            This service includes responsive design, SEO-ready architecture, and fast-loading pages to ensure a seamless user experience across devices.</p>
                     </div>
                     <div class="Services-list">
+                        <img src="./Asset/Social Media Marketing.png" alt="Social Media Marketing">
                         <h3>Social Media Marketing</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Strategic social media marketing services to grow brand awareness, build community, and drive engagement across platforms like Instagram, Facebook, LinkedIn, and Twitter. 
+                            This service includes content creation, scheduling, audience targeting, and performance tracking to optimize results.</p>
                     </div>
                     <div class="Services-list">
-                        <h3>SEO</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="./Asset/SEO.png" alt="SEO">
+                        <h3>Search Engine Automation</h3>
+                        <p> Comprehensive SEO services that focus on on-page, off-page, and technical SEO to increase website visibility and drive organic traffic. 
+                            This service includes keyword research, competitor analysis, content creation, link-building, and continuous optimization to improve search rankings.</p>
                     </div>
                     <div class="Services-list">
+                        <img src="./Asset/Digital Advertising.png" alt="Digital Advertising">
                         <h3>Digital Advertising</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>The Digital advertising services to increase visibility and generate immediate traffic through targeted ad campaigns. 
+                            This includes Google Ads, social media advertising, display ads, and retargeting campaigns optimized for conversions and ROI.</p>
                     </div>
                 </div>
             </section>
-            <section class="Projects">
-                <div class="Our Projects">
-                    <h2>Our Projects</h2>
-                    <p>See how we've helped our clients innovate and grow</p>
+            <section id="Contact">
+                <div class="Contact-us">
+                    <h2>Ready to Elevate Your Digital Strategy?</h2>
+                    <p>Contact us today to see how we can help your business thrive online. 
+                    Whether it's SEO, social media marketing, or a complete digital transformation, we're here to provide the solutions you need. 
+                    Let's collaborate!"</p>
                 </div>
-                <div class="clients">
-                    <div class="clients-list">
-                        <h3>Airpop Media</h3>
-                        <iframe width="450" height="300" src="https://www.youtube.com/embed/SfMT4Agg8Xw?si=Txl7tKV_L3P_IjVY&amp;start=1" title="Project: Airpop Media" frameborder="0" allow="autoplay;encrypted-media;" allowfullscreen></iframe>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="clients-list">
-                        <h3>JAC Digital</h3>
-                        <video width="450" height="300" src="./Asset/JAC Digital Expertise Showreel 2022.mp4" controls>Vdeo ini tidak bisa digunakan</video>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+                <div class="Form">
+                    <form method="get">
+                        <label for="ID-Name">Name (Required)</label><br>
+                        <input type="Name" id="ID-Name" Name="Name" required><br>
+                        <label for="ID-Email">Email (Required)</label><br>
+                        <input type="Email" id="ID-Email" Name="Email" required><br>
+                        <label for="ID-Phone Number">Phone Number (Required)</label><br>
+                        <input type="tel" id="ID-Phone Number" Name="Phone Number" pattern="[0-9]{10,13}" required><br>
+                        <label>What can we help you?</label> <br>
+                        <label for="ID-Web"><input type="checkbox" id="ID-Web" name="Requested Service" value="Web Development">Web Development</label>
+                        <label for="ID-Social Media"><input type="checkbox" id="ID-Social Media" name="Requested Service" Value="Social Media Marketing">Social Media Marketing</label>
+                        <label for="ID-SEO"><input type="checkbox" id="ID-SEO" name="Requested Service" Value="SEO">Search Engine Automation</label>
+                        <label for="ID-ADS"><input type="checkbox" id="ID-ADS" name="Requested Service" Value="Digital Advertising">Digital Advertising</label><br>
+                        <label for="Goals">What's your goal?</label><br>
+                        <select>
+                            <option disabled>Goals</option>
+                            <option>Increase brand awareness</option>
+                            <option>Increase sales</option>
+                            <option>Generate leads</option>
+                            <option>Increase website traffic</option>
+                        </select> <br>
+                        <label for="ID-Message">Tell us more about your business</label> <br>
+                        <textarea name="Message" id="ID-Message" cols="60" rows="8"></textarea> <br>
+                        <div class="Submit-Btn">
+                            <input type="submit" Value="Submit"> 
+                            <input type="reset" Value="Reset">
+                        </div>
+                    </form>
                 </div>
-            </section>
-            <section class="Contact">
-                <h2>Ready to Elevate Your Digital Strategy?</h2>
-                <p>Contact us today to see how we can help your business thrive online. Whether it's SEO, social media marketing, or a complete digital transformation, we're here to provide the solutions you need. Let's collaborate!"</p>
-                <form method="get">
-                    <label for="ID-Name">Name (Required)</label><br>
-                    <input type="Name" id="ID-Name" Name="Name" required><br>
-                    <label for="ID-Email">Email (Required)</label><br>
-                    <input type="Email" id="ID-Email" Name="Email" required><br>
-                    <label for="ID-Phone Number">Phone Number (Required)</label><br>
-                    <input type="tel" id="ID-Phone Number" Name="Phone Number" pattern="[0-9]{10,13}" required><br>
-                    <label>What can we help you?</label> <br>
-                    <input type="checkbox" id="ID-Web" name="Requested Service" value="Web Development">
-                    <label for="ID-Web">Web Development</label>
-                    <input type="checkbox" id="ID-Social Media" name="Requested Service" Value="Social Media Marketing">
-                    <label for="ID-Social Media">Social Media Marketing</label>
-                    <input type="checkbox" id="ID-SEO" name="Requested Service" Value="SEO">
-                    <label for="ID-SEO">SEO</label>
-                    <input type="checkbox" id="ID-ADS" name="Requested Service" Value="Digital Advertising">
-                    <label for="ID-ADS">Digital Advertising</label><br>
-                    <label for="Goals">What's your goal?</label><br>
-                    <select>
-                        <option disabled>Goals</option>
-                        <option>Increase brand awareness</option>
-                        <option>Increase sales</option>
-                        <option>Generate leads</option>
-                        <option>Increase website traffic</option>
-                    </select> <br>
-                    <label for="ID-Message">Tell us more about your business</label> <br>
-                    <textarea name="Message" id="ID-Message" cols="50" rows="5"></textarea> <br>
-                    <input type="submit" Value="Submit"> 
-                    <input type="reset" Value="Reset">
-                </form>
             </section>
         </main>
         <footer>
