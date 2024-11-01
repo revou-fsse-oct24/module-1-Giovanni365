@@ -1,13 +1,33 @@
-# Revou Digital Agency Website
-![Logo](/Asset/Revou_Digital_Agency-removebg-preview.png)
+# Pacman Digital Agency Website
+![Logo](/Asset/Pacmann%20Digital%20Agency.png)
 
-Revou Digital Agency Website adalah sebuah website yang menawarkan jasa digital marketing. Jasa yang ditawarkan meliputi pembuatan Website, social media marketing, SEO dan digital ads. Berdiri pada tahun 2024, Revou telah membantu banyak bisnis berkembang dengan cara meningkatkan brand awareness dan juga generate sales.
+This project is a responsive digital agency website built in HTML and CSS. The main sections are Home, About Us, Clients, Services and Contact Us. The website was created as a company profile of Pacman Digital Agency.
 
-# Website Feature
-1. Home
-2. About Us: Profile Revou Digital Agency
-3. Services: Jasa yang ditawarkan Revou Digital Agency
-4. Projects: Memberikan informasi projects dan klien apa saja yang pernah ditangani
-5. Contact us: Sebuah form untuk terhubung lebih lanjut
+## Feature
+1. Responsive design: Having responsive design for any device
+2. Semantic HTML: Having semantic HTML to enhance accessibility and optimize SEO
+2. About us: Introduction about the company
+3. Clients: List of clients
+4. Services: Exploring the services that the company offer
+5. Contact form: To know why the clients want to use the services
+
+## Language used
+1. HTML
+2. CSS
+
+## Installation
+The step for installation are:
+1. Clone the respitory
+```bash
+git clone https://github.com/revou-fsse-oct24/module-1-Giovanni365.git
+```
+2. Navigate the folder in terminal
+```bash
+cd module-1-Giovanni365
+```
+3. Open index.html to view the website
+```bash
+open index.html
+```
 
 

@@ -12,6 +12,13 @@ main {
     margin-top: 100px;
 }
 
+@media only screen and (max-width: 900px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+}
+
 /* header*/
 header {
     position: fixed;
@@ -49,6 +56,18 @@ li a {
 
 li a:hover {
     color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: center;
+        padding-left: 60px;
+    }
 }
 /* home*/
 #Home {
@@ -102,21 +121,13 @@ li a:hover {
         height: 550px;
         width: 100%;
     }
-}
-@media only screen and (max-width: 900px) {
     .Home-right>img {
         height: 150px;
         width: 250px;
     }
-}
-
-@media only screen and (max-width: 900px) {
     .Home-button {
         display: flex;
     }
-}
-
-@media only screen and (max-width: 900px) {
     .Home-text>h2 {
         font-size: 30px;
     }
@@ -152,6 +163,12 @@ li a:hover {
     width: 200px;
 }
 
+@media only screen and (max-width: 900px) {
+    #About-Us {
+        width: 90%;
+    }
+}
+
 /*Section: Clients*/
 #Clients {
     height: 450px;
@@ -181,6 +198,9 @@ li a:hover {
 }
 
 @media only screen and (max-width: 900px) {
+    #Clients {
+        width: 100%;
+    }
     .Clients-List img {
         width: 80px;
         height: 80px;
@@ -220,6 +240,19 @@ li a:hover {
 .Services-list>img {
     width: 50px;
     height: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+    #Services {
+        width: 100vw;
+        height: 100%;
+    }
+    .Services-list {
+        width: 75%;
+    }
+    .Our-Services>p {
+        width: 90%;
+    }
 }
 
 /*Section: Contact*/
@@ -268,6 +301,22 @@ form>input {
 
 .Submit-Btn {
     text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .Contact-us {
+        width: 100%;
+    }
+    .Contact-us p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .Form {
+            width: 60%;
+    }
+    form {
+        width: 100%;
+    }
 }
 
 /*Footer*/
